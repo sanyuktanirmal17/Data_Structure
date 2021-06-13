@@ -8,6 +8,9 @@ public class RunnerQueue {
 			q.enQueue(30);
 			q.enQueue(70);
 			
+			q.deQueue();
+			q.deQueue();
+			q.enQueue(56);
 			q.show();
 		}
 

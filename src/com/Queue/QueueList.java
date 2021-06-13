@@ -17,6 +17,24 @@ public class QueueList {
 			rear = (rear + 1) % 3;
 			size = size + 1;
 		}
+		
+		/*
+		 * for deletion 
+		 */
+		public int deQueue() {
+			int data = queue[front];
+			if (!isEmpty()) {
+
+				front = (front + 1) % 5;
+				size = size - 1;
+
+			} else {
+				System.out.println("Queue is empty nothing to delete");
+			}
+
+			return data;
+
+		}
 		/*
 		 * show method 
 		 */
