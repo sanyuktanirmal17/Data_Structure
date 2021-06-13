@@ -1,4 +1,5 @@
-package LinkedList;
+package LinkedList 
+
 import org.junit.Test;
 
 import junit.framework.Assert;
@@ -19,3 +20,4 @@ public class MyNodeTest {
 	}
 
 }
+
