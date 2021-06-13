@@ -12,6 +12,30 @@ public class StackList {
 				stack[top] = data;
 				top++;
 			}
+					
+		/*
+		 * pop the element out
+		 */
+		
+		public int pop() {
+			int data=0;
+				top--;
+				data = stack[top];
+				stack[top] = 0;
+				return data;
+			}
+					
+		/*
+		 * fetch the first element of the Stack or 
+		 * show present element  at the top of the Stack
+		 */
+
+		public int peek() {
+			int data;
+			data = stack[top - 1];
+			return data;
+		}
+
 		/*
 		 * show element 
 		 */
